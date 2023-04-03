@@ -50,6 +50,7 @@ func main2() {
 		} else {
 			enabled[i] = false
 			fmt.Printf("%v is not enabled for project: %s\n", apis_name[i], projectID)
+			// Testing the tag incremental feature
 		}
 	}
 
