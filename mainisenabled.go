@@ -46,10 +46,10 @@ func main2() {
 
 		if service.State == "ENABLED" {
 			enabled[i] = true
-			fmt.Printf("Kubernetes API is enabled for project: %s\n", projectID)
+			fmt.Printf("%v is enabled for project: %s\n", apis_name[i], projectID)
 		} else {
 			enabled[i] = false
-			fmt.Printf("Kubernetes API is not enabled for project: %s\n", projectID)
+			fmt.Printf("%v is not enabled for project: %s\n", apis_name[i], projectID)
 		}
 	}
 
