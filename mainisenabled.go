@@ -9,7 +9,7 @@ import (
 	"google.golang.org/api/serviceusage/v1"
 )
 
-func main() {
+func main2() {
 	ctx := context.Background()
 	apis_name := ["Compute Engine", "App Engine", "Kubernetes Engine", "Cloud Functions", "Filestore API", "Cloud Storage", "Big Table",
 					"Firestore", "Data Migration", "SQL Inspector", "MemoryStore Redis", "MemorySTore Memcached", "Cloud Spanner", "Big Query"
